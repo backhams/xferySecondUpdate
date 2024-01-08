@@ -159,7 +159,7 @@ export default function ProductForm() {
 
   return (
     <form onSubmit={handleSubmit} className="max-w-lg mx-auto mt-10 p-4 bg-black rounded shadow-md">
-      <label className="block">
+      <label className="block text-white">
         Product Name:
         <input
           type="text"
@@ -171,7 +171,7 @@ export default function ProductForm() {
         />
       </label>
 
-      <label className="block mt-4">
+      <label className="block text-white mt-4">
         Product Id:
         <input
           type="text"
@@ -189,7 +189,7 @@ export default function ProductForm() {
         </button>
       </label>
 
-      <label className="block mt-4">
+      <label className="block text-white mt-4">
         Product First Image:
         <input
           type="text"
@@ -201,7 +201,7 @@ export default function ProductForm() {
         />
       </label>
 
-      <label className="block mt-4">
+      <label className="block text-white mt-4">
         Sell Price:
         <input
           type="text"
@@ -213,7 +213,7 @@ export default function ProductForm() {
         />
       </label>
 
-      <label className="block mt-4">
+      <label className="block text-white mt-4">
         Discount Price:
         <input
           type="text"
@@ -225,7 +225,7 @@ export default function ProductForm() {
         />
       </label>
 
-      <label className="block mt-4">
+      <label className="block text-white mt-4">
         Category Name:
         <input
           type="text"
@@ -237,7 +237,7 @@ export default function ProductForm() {
         />
       </label>
 
-      <label className="block mt-4">
+      <label className="block text-white mt-4">
         Description:
         <textarea
           name="description"
@@ -247,7 +247,7 @@ export default function ProductForm() {
         />
       </label>
 
-      <label className="block mt-4">
+      <label className="block text-white mt-4">
         Product Key (English):
         <input
           type="text"
@@ -259,7 +259,7 @@ export default function ProductForm() {
         />
       </label>
 
-      <label className="block mt-4">
+      <label className="block text-white mt-4">
         Entry Name (English):
         <input
           type="text"
@@ -271,7 +271,7 @@ export default function ProductForm() {
         />
       </label>
 
-      <label className="block mt-4">
+      <label className="block text-white mt-4">
         Product Images:
         {formData.productImageSet.map((imageUrl, index) => (
           <div key={index} className="mt-4 p-2 bg-gray-100 rounded">
@@ -309,10 +309,10 @@ export default function ProductForm() {
         </button>
       </label>
 
-      <label className="block mt-4">
+      <label className="block text-white mt-4">
         Variants:
         {formData.variants.map((variant, index) => (
-          <div key={index} className="mt-4 p-2 bg-gray-100 rounded">
+          <div key={index} className="mt-4 p-2 bg-black rounded">
             <div className="mb-4">
               <label>
                 Variant ID:
