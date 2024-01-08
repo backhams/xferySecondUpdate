@@ -158,7 +158,7 @@ export default function ProductForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="max-w-lg mx-auto mt-10 p-4 bg-white rounded shadow-md">
+    <form onSubmit={handleSubmit} className="max-w-lg mx-auto mt-10 p-4 bg-black rounded shadow-md">
       <label className="block">
         Product Name:
         <input
